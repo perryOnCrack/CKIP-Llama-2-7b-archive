@@ -225,7 +225,7 @@ run_sft_CKIP-LLaMA.sh 填入參數
 output_dir=... # output file
 train_file=... # training file
 validation_file=... # training file
-export ABS_PATH=... # absolute path of BELLE
+export BELLE_DIR=... # absolute path of BELLE
 ```
 
 ### Start training
