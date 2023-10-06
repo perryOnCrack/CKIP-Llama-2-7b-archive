@@ -193,11 +193,13 @@ print( tokenizer.batch_decode(output) )
 
 ## 如何用我自己的資料集來訓練
 
-您可以輕鬆用您自己的資料集來訓練, 一般來說, 不需要再進行預訓練步驟, 只要將您的任務進行任務微調訓練即可
+您可以輕鬆用您自己的資料集來訓練，一般來說，不需要再進行預訓練步驟，只要將您的任務進行任務微調訓練即可。您可以使用 CKIP-Llama-2-7b 或 CKIP-Llama-2-7b-chat 作為訓練的起始模型。
 
 ### Installation
 
 ```bash
+git clone --recursive https://github.com/ckiplab/CKIP-Llama-2-7b.git
+cd CKIP-Llama-2-7b
 pip install -r requirements.txt
 ```
 
