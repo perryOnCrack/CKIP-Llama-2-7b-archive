@@ -39,6 +39,10 @@ CKIP-Llama-2-7b 是[中央研究院詞庫小組(CKIP)](https://ckip.iis.sinica.e
 ## 展示
 您可以在[此連結](https://huggingface.co/spaces/ckiplab/CKIP-Llama-2-7b-chat)測試多任務微調訓練後的 CKIP-Llama-2-7b-chat模型。
 
+## 參與者
+
+[Wei-Yun Ma](https://www.iis.sinica.edu.tw/pages/ma/), [Yu-Hung Wu](https://marzear.github.io/), [Nai-Chi Yang](https://github.com/nike00811/), and [Chin-Tung Lin](https://github.com/linchintung).
+
 ## 特色
 
 1. 在多個繁體中文任務上表現優異：我們以商用開源模型Llama-2-7b以及Atom-7b為基礎，再補強繁體中文的處理能力，並對405個可商用的任務檔案同步進行訓練優化，在量化的評估指標上均有優異成績。
