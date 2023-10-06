@@ -179,7 +179,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name_or_path, device_map='aut
 
 
 prompt_template = "Human: \n{}\n\nAssistant: \n"
-prompt = prompt_template.format('台灣大學在哪裡？')
+prompt = prompt_template.format('為中研院推出的漢堡寫一份推銷文案')
 
 inputs = tokenizer(prompt, return_tensors='pt').to(model.device)
 output = model.generate(**inputs)
