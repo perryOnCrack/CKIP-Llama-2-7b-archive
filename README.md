@@ -171,15 +171,12 @@ import torch
 model_name_or_path = 'ckiplab/CKIP-Llama-2-7b-chat'
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
 # int8
-model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, load_in_8bit=True)
+model = AutoModelForCausalLM.from_pretrained(model_name_or_path, device_map='auto', torch_dtype=torch.float16, load_in_8bit=True)
 # fp16
-# model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16)
+# model = AutoModelForCausalLM.from_pretrained(model_name_or_path, device_map='auto', torch_dtype=torch.float16)
 # fp32
-# model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
-model.to(device)
+# model = AutoModelForCausalLM.from_pretrained(model_name_or_path, device_map='auto')
 
 sampling_strategy = {'max_new_tokens': 50,
                      'top_p': 0.95}
