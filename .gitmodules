@@ -1,0 +1,3 @@
+[submodule "BELLE"]
+	path = BELLE
+	url = https://github.com/LianjiaTech/BELLE.git

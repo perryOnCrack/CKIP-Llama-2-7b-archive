@@ -1,0 +1,11 @@
+torch
+transformers==4.31.0
+accelerate
+bitsandbytes
+datasets
+fire
+huggingface_hub
+tqdm
+deepspeed
+gradio
+flash-attn
