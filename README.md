@@ -41,7 +41,13 @@ CKIP-Llama-2-7b 是[中央研究院詞庫小組(CKIP)](https://ckip.iis.sinica.e
 
 ## 參與者
 
-[Wei-Yun Ma](https://www.iis.sinica.edu.tw/pages/ma/), [Yu-Hung Wu](https://marzear.github.io/), [Nai-Chi Yang](https://github.com/nike00811/), and [Chin-Tung Lin](https://github.com/linchintung).
+[Wei-Yun Ma](https://www.iis.sinica.edu.tw/pages/ma/) (馬偉雲) at CKIP<br>Email: ma@iis.sinica.edu.tw
+
+[Yu-Hung Wu](https://marzear.github.io/) (吳昱宏) at CKIP<br>Email: yhwu@iis.sinica.edu.tw
+
+[Nai-Chi Yang](https://github.com/nike00811/) (楊奈其) at CKIP<br>Email: nike00811@iis.sinica.edu.tw
+
+[Chin-Tung Lin](https://github.com/linchintung) (林鑫彤) at CKIP<br>Email: cindylin@iis.sinica.edu.tw
 
 ## 特色
 
