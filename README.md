@@ -191,7 +191,7 @@ print( tokenizer.batch_decode(output) )
 ```
 
 ### Training
-我們的模型訓練在4顆A100的機器上，環境使用 `python >= 3.8` 和 `CUDA 11.8` 。
+我們的模型訓練在4顆A100的機器上，環境使用 `python 3.8` 和 `CUDA 11.8` 。
 
 ### Inference on a Single GPU
 | Quantization | CUDA Memory Requirements |
@@ -205,7 +205,15 @@ print( tokenizer.batch_decode(output) )
 
 ### Installation
 
+系統需求：
+* Python 3.8 and above.
+* CUDA 11.6 and above.
+* PyTorch 2.0.0 and above.
+  * 請先至[PyTorch官方網站](https://pytorch.org/)根據您的系統環境安裝對應的PyTorch版本。
+* Linux only.
+
 ```bash
+pip install -U pip
 git clone --recursive https://github.com/ckiplab/CKIP-Llama-2-7b.git
 cd CKIP-Llama-2-7b
 pip install -r requirements.txt
