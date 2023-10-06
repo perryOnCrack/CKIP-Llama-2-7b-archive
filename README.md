@@ -97,7 +97,7 @@ CKIP-Llama-2-7b的資料分成兩個：預訓練資料 和 多任務微調資料
 | :----------------------------------------------------------- | :------: | :-------: | :-----------: |
 | [CommonCrawl](https://commoncrawl.org/) (subset)             |   2.0G   |  700,000  | 1,024,820,457 |
 | [英文維基百科](https://dumps.wikimedia.org/enwiki/) (subset) |   721M   |  250,000  |  176,021,369  |
-| [中文維基百科](https://dumps.wikimedia.org/enwiki/)          |   1.4G   |  707,175  |  726,000,253  |
+| [中文維基百科](https://dumps.wikimedia.org/zhwiki/)          |   1.4G   |  707,175  |  726,000,253  |
 | [臺灣碩博士論文摘要](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=d) |   1.7G   | 1,055,844 |  865,681,958  |
 | [中央研究院漢語平衡語料庫](https://asbc.iis.sinica.edu.tw/) * 2 |   42M    |  16,673   |  21,635,195   |
 | [徐志摩詩歌全集](https://ixdzs.tw/read/55056/) * 2           |   258K   |    74     |    133,029    |
