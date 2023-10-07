@@ -1,3 +1,4 @@
+wheel
 numpy
 rouge_score
 openai
@@ -13,4 +14,6 @@ huggingface_hub
 tqdm
 deepspeed
 gradio
-flash-attn
+wandb
+SentencePiece
+flash-attn==2.1.1
