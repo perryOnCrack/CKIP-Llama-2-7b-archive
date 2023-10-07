@@ -1,3 +1,9 @@
+numpy
+rouge_score
+openai
+gensim
+peft
+trl
 transformers==4.31.0
 accelerate
 bitsandbytes
