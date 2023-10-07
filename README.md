@@ -39,20 +39,6 @@ CKIP-Llama-2-7b 是[中央研究院詞庫小組(CKIP)](https://ckip.iis.sinica.e
 ## 展示
 您可以在[此連結](https://huggingface.co/spaces/ckiplab/CKIP-Llama-2-7b-chat)測試多任務微調訓練後的 CKIP-Llama-2-7b-chat模型。
 
-## 參與者
-
-**[Wei-Yun Ma](https://www.iis.sinica.edu.tw/pages/ma/) (馬偉雲)** at CKIP
-* Email: ma@iis.sinica.edu.tw
-
-**[Yu-Hung Wu](https://marzear.github.io/) (吳昱宏)** at CKIP
-* Email: yhwu@iis.sinica.edu.tw
-
-**[Nai-Chi Yang](https://github.com/nike00811/) (楊奈其)** at CKIP
-* Email: nike00811@iis.sinica.edu.tw
-
-**[Chin-Tung Lin](https://github.com/linchintung) (林鑫彤)** at CKIP
-* Email: cindylin@iis.sinica.edu.tw
-
 ## 特色
 
 1. 在多個繁體中文任務上表現優異：我們以商用開源模型Llama-2-7b以及Atom-7b為基礎，再補強繁體中文的處理能力，並對405個可商用的任務檔案同步進行訓練優化，在量化的評估指標上均有優異成績。
@@ -267,6 +253,20 @@ export BELLE_DIR=... # absolute path of BELLE
 ```bash
 bash run_sft_CKIP-LLaMA.sh
 ```
+
+## 參與者
+
+**[Wei-Yun Ma](https://www.iis.sinica.edu.tw/pages/ma/) (馬偉雲)** at CKIP
+* Email: ma@iis.sinica.edu.tw
+
+**[Yu-Hung Wu](https://marzear.github.io/) (吳昱宏)** at CKIP
+* Email: yhwu@iis.sinica.edu.tw
+
+**[Nai-Chi Yang](https://github.com/nike00811/) (楊奈其)** at CKIP
+* Email: nike00811@iis.sinica.edu.tw
+
+**[Chin-Tung Lin](https://github.com/linchintung) (林鑫彤)** at CKIP
+* Email: cindylin@iis.sinica.edu.tw
 
 ## 引用
 
