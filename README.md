@@ -241,12 +241,15 @@ pip install -r requirements.txt
 
 ### Modify parameters
 
+登入 [wandb](https://docs.wandb.ai/ref/cli/wandb-login)，可以透過 wandb 即時監控訓練狀態
+
 run_sft_CKIP-LLaMA.sh 填入參數
 
 ```bash
 output_dir=... # output file
 train_file=... # training file
 validation_file=... # training file
+export WANDB_PROJECT=... # wandb project name
 export BELLE_DIR=... # absolute path of BELLE
 ```
 
