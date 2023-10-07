@@ -10,8 +10,8 @@ mkdir -p ${output_dir}
 mkdir -p ${cache_dir}
 
 export CUDA_VISIBLE_DEVICES='0,1,2,3'
-export WANDB_PROJECT="WANDB_PROJECT"
-export WANDB_ENTITY="WANDB_ENTITY"
+export WANDB_PROJECT="CKIP-Llama"
+# export WANDB_ENTITY="WANDB_ENTITY"
 # export WANDB_RESUME=allow
 export PYTHONPATH="$BELLE_DIR/train"
 
