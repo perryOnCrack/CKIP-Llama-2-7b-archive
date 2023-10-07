@@ -174,6 +174,15 @@ CKIP-Llama-2-7b的資料分成兩個：預訓練資料 和 多任務微調資料
 
 
 ## 如何佈署在我自己的機器
+
+|      使用裝置      | GPU數量 | Quantization | 生成100個tokens所需時間 |
+| :----------------: | :-----: | :----------: | :---------------------: |
+| NVIDIA GTX 1080 Ti |    1    |     int8     |          36秒           |
+| NVIDIA RTX 2080 Ti |    1    |     int8     |          23秒           |
+| NVIDIA GTX 1080 Ti |    4    |     fp16     |          20秒           |
+| NVIDIA RTX 2080 Ti |    4    |     fp16     |           7秒           |
+
+
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
